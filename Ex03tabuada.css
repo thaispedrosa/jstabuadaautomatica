@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(24, 126, 121);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    background-color: rgb(183, 224, 243);
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.719);
+}
+
+h1, p {
+    color: #fff;
+    text-align: center;
+}
+
+#número {
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 1px 1px 5px #000;
+}
+
+select {
+    width: 180px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 1px 1px 5px #000;
+    display: grid;
+    overflow: hidden;
+}
+
+.campos {
+    height: 10px;
+    margin-bottom: 30px;
+    display:grid;
+}
+
+.botão input[type="button"] {
+    background-color: #0a5e69;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 50px;
+    border: 2px solid transparent;
+    transition: .5s;
+}
+
+
+.botão input[type="button"]:hover {
+    border-color: #1a81a0;
+    color: #09663c;
+    background-color: #FFF;
+}
